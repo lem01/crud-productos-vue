@@ -1,38 +1,19 @@
-# crud-productos-vue
+# CRUD de Productos (Frontend)
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación web desarrollada con Vue 3 y Vite.
 
-## Recommended IDE Setup
+## 1. Configurar el archivo `.env`
+Crea un archivo `.env` en la raíz del proyecto con la dirección de tu backend:
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Recommended Browser Setup
-
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
+```env
+VITE_API_URL=http://localhost:8080/api
 ```
+```bash
+# Instalar dependencias
+npm install
 
-### Compile and Hot-Reload for Development
-
-```sh
+# Iniciar servidor de desarrollo
 npm run dev
 ```
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+Abree en tu navegador la dirección que aparece en la terminal (por defecto http://localhost:5173). (Asegúrate de tener tu backend encendido).
